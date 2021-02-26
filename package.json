@@ -1,0 +1,11 @@
+{
+  "name": "crypto-api",
+  "version": "1.0.0",
+  "description": "Set up a simple cryto api that will use CoinMarketCap.com as the source of data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Schwarz",
+  "license": "ISC"
+}
