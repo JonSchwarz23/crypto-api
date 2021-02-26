@@ -4,8 +4,14 @@
   "description": "Set up a simple cryto api that will use CoinMarketCap.com as the source of data",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "author": "Jonathan Schwarz",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "puppeteer": "^8.0.0"
+  }
 }
